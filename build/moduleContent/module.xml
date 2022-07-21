@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+	<module>
+		<name>Skelly</name>
+		<id>org.sepia.skelly.Skelly</id>
+		<version>0.0.1-SNAPSHOT</version>
+		<description>A short sentence describing what it does, but not much longer than this.</description>
+		<requiredIgnitionVersion>8.0.10</requiredIgnitionVersion>
+		<freeModule>false</freeModule>
+		<hook scope="G">org.sepia.skelly.gateway.SkellyGatewayHook</hook>
+		<hook scope="C">org.sepia.skelly.client.SkellyClientHook</hook>
+		<requiredFrameworkVersion>8</requiredFrameworkVersion>
+		<jar scope="C">client-0.0.1-SNAPSHOT.jar</jar>
+		<jar scope="CG">common-0.0.1-SNAPSHOT.jar</jar>
+		<jar scope="G">gateway-0.0.1-SNAPSHOT.jar</jar>
+	</module>
+</modules>
