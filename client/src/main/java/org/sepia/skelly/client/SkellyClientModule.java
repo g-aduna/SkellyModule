@@ -1,7 +1,8 @@
 package org.sepia.skelly.client;
 
 import org.sepia.skelly.common.AbstractSkellyModule;
-// import org.sepia.skelly.SkellyMessage;
+import org.sepia.skelly.common.SkellyMessage;
+
 import com.inductiveautomation.ignition.client.gateway_interface.ModuleRPCFactory;
 
 public class SkellyClientModule extends AbstractSkellyModule{
@@ -16,7 +17,7 @@ public class SkellyClientModule extends AbstractSkellyModule{
     }
 
     @Override
-    protected String helloWorld() {
-        return rpc.HelloWorld;
+    public String HelloWorld() {
+        return rpc.HelloWorld();
     }
 }

@@ -1,2 +1,4 @@
-org/sepia/skelly/common/SkellyModule.java
- org.sepia.skelly.common.SkellyModule
+org/sepia/skelly/common/SkellyMessage.java
+ org.sepia.skelly.common.SkellyMessage
+org/sepia/skelly/common/AbstractSkellyModule.java
+ org.sepia.skelly.common.AbstractSkellyModule

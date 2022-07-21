@@ -1,2 +1,4 @@
+org/sepia/skelly/client/SkellyClientModule.java
+ org.sepia.skelly.client.SkellyClientModule
 org/sepia/skelly/client/SkellyClientHook.java
  org.sepia.skelly.client.SkellyClientHook

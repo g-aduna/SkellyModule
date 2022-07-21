@@ -1,2 +1,4 @@
-org/sepia/skelly/gateway/SkellyGatewayHook.java
- org.sepia.skelly.gateway.SkellyGatewayHook
+org/sepia/skelly/SkellyGatewayHook.java
+ org.sepia.skelly.SkellyGatewayHook
+org/sepia/skelly/SkellyGatewayModule.java
+ org.sepia.skelly.gateway.SkellyGatewayModule
