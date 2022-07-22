@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "skelly"
+
+include(
+":",
+    ":common",
+    ":gateway",
+    ":client",
+    ":designer"
+)
