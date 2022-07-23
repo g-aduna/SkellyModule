@@ -1,6 +1,6 @@
-package org.sepia.skelly;
+package org.sepia.skelly.gateway;
 
-import org.sepia.skelly.common.AbstractSkellyModule;
+import org.sepia.skelly.scripting.AbstractSkellyModule;
 
 public class SkellyGatewayModule extends AbstractSkellyModule {
 

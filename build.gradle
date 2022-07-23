@@ -77,9 +77,9 @@ ignitionModule {
      * Example entry: "com.myorganization.vectorizer.VectorizerDesignerHook": "D"
      */
     hooks = [
-        "org.sepia.skelly.SkellyGatewayHook" : "G",
+        "org.sepia.skelly.gateway.SkellyGatewayHook" : "G",
         "org.sepia.skelly.client.SkellyClientHook" : "C",
-        "org.sepia.skelly.SkellyDesignerHook" : "D"
+        "org.sepia.skelly.designer.SkellyDesignerHook" : "D"
     ]
 
     applyInductiveArtifactRepo = true
