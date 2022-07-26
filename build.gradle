@@ -53,7 +53,7 @@ ignitionModule {
      *  Example entry: [ ":gateway": "G", ":common": "GC", ":vision-client": "C" ]
      */
     projectScopes = [
-        ":client" : "C",
+        ":client" : "CD",
         ":common" : "GCD",
         ":gateway" : "G",
         ":designer" : "D"
@@ -95,4 +95,12 @@ ignitionModule {
     // the path from the root documentation dir to the index file.
     // documentationIndex.set("index.html")
 
+}
+
+task deepClean() {
+    dependsOn clean
+
+    doLast {
+        delete(file(".gradle"))
+    }
 }

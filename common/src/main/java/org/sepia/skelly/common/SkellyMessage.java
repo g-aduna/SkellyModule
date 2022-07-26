@@ -1,4 +1,4 @@
-package org.sepia.skelly.scripting;
+package org.sepia.skelly.common;
 
 public interface SkellyMessage {
 

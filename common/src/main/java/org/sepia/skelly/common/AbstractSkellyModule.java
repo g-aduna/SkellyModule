@@ -1,9 +1,9 @@
-package org.sepia.skelly.scripting;
+package org.sepia.skelly.common;
 
 import com.inductiveautomation.ignition.common.BundleUtil;
 import com.inductiveautomation.ignition.common.script.hints.ScriptFunction;
 
-public abstract class AbstractSkellyModule implements SkellyMessage{
+public abstract class AbstractSkellyModule implements SkellyMessage {
 
     static {
         BundleUtil.get().addBundle(
