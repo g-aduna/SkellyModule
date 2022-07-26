@@ -1,4 +1,4 @@
-package org.sepia.skelly;
+package org.sepia.skelly.gateway;
 
 import org.sepia.skelly.common.AbstractSkellyModule;
 

@@ -53,7 +53,7 @@ ignitionModule {
      *  Example entry: [ ":gateway": "G", ":common": "GC", ":vision-client": "C" ]
      */
     projectScopes = [
-        ":client" : "C",
+        ":client" : "CD",
         ":common" : "GCD",
         ":gateway" : "G",
         ":designer" : "D"
@@ -77,9 +77,9 @@ ignitionModule {
      * Example entry: "com.myorganization.vectorizer.VectorizerDesignerHook": "D"
      */
     hooks = [
-        "org.sepia.skelly.SkellyGatewayHook" : "G",
+        "org.sepia.skelly.gateway.SkellyGatewayHook" : "G",
         "org.sepia.skelly.client.SkellyClientHook" : "C",
-        "org.sepia.skelly.SkellyDesignerHook" : "D"
+        "org.sepia.skelly.designer.SkellyDesignerHook" : "D"
     ]
 
     applyInductiveArtifactRepo = true
@@ -95,4 +95,12 @@ ignitionModule {
     // the path from the root documentation dir to the index file.
     // documentationIndex.set("index.html")
 
+}
+
+task deepClean() {
+    dependsOn clean
+
+    doLast {
+        delete(file(".gradle"))
+    }
 }

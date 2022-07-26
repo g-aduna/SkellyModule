@@ -11,7 +11,7 @@ public class SkellyClientModule extends AbstractSkellyModule {
 
     public SkellyClientModule() {
         rpc = ModuleRPCFactory.create(
-            "org.sepia.skelly",
+            "org.sepia.skelly.Skelly",
             SkellyMessage.class
         );
     }

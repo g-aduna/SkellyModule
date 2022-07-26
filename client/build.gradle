@@ -12,5 +12,4 @@ dependencies {
     compileOnly("com.inductiveautomation.ignitionsdk:vision-client-api:${sdk_version}")
     compileOnly("com.inductiveautomation.ignitionsdk:ignition-common:${sdk_version}")
     
-    // add client scoped dependencies here
 }

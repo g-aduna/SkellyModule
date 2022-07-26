@@ -1,4 +1,4 @@
-package org.sepia.skelly;
+package org.sepia.skelly.gateway;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletResponse;
 // import org.apache.http.client.protocol.ClientContext;
 
 import com.inductiveautomation.ignition.common.licensing.LicenseState;
-import com.inductiveautomation.ignition.common.util.LoggerEx;
 import com.inductiveautomation.ignition.common.project.resource.adapter.ResourceTypeAdapter;
 import com.inductiveautomation.ignition.common.project.resource.adapter.ResourceTypeAdapterRegistry;
+import com.inductiveautomation.ignition.common.script.ScriptManager;
 import com.inductiveautomation.ignition.common.script.hints.PropertiesFileDocProvider;
+import com.inductiveautomation.ignition.common.util.LoggerEx;
+import com.inductiveautomation.ignition.gateway.clientcomm.ClientReqSession;
 import com.inductiveautomation.ignition.gateway.dataroutes.RouteGroup;
 import com.inductiveautomation.ignition.gateway.model.AbstractGatewayModuleHook;
 import com.inductiveautomation.ignition.gateway.model.GatewayContext;
 import com.inductiveautomation.ignition.gateway.model.GatewayModuleHook;
-import com.inductiveautomation.ignition.gateway.clientcomm.ClientReqSession;
-import com.inductiveautomation.ignition.common.script.ScriptManager;
 import com.inductiveautomation.ignition.gateway.web.models.ConfigCategory;
 import com.inductiveautomation.ignition.gateway.web.models.IConfigTab;
 import com.inductiveautomation.ignition.gateway.web.pages.config.overviewmeta.ConfigOverviewContributor;
